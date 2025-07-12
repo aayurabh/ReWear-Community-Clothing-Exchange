@@ -37,8 +37,8 @@
 ## Tech Stack
 
 - **Frontend:** React.js, Tailwind CSS
-- **Backend:** Node.js
-- **Database:**
+- **Backend:** Node.js, Express.js ,
+- **Database:** MongoDB/Mysql
 - **Version Control:** Git & GitHub
 
 ---
