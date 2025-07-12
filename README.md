@@ -9,6 +9,12 @@
 **Develop ReWear, a web-based platform that enables users to exchange unused clothing through direct swaps or a point-based redemption system. The goal is to promote sustainable fashion and reduce textile waste by encouraging users to reuse wearable garments instead of discarding them.**
 
 ### Key Features:
+- User authentication (Signup/Login)
+- Landing Page with search, browse, and featured items
+- Product Listing, detailed View, and add/edit functionality
+- User dashboard for managing listings and purchases
+- Admin panel for moderating items and users
+- option for direct swaps or point-based redemption
 
 ---
 
