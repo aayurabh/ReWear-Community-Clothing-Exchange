@@ -1,0 +1,21 @@
+{
+  "name": "rewear-community-clothing-exchange",
+  "version": "1.0.0",
+  "description": "---",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aayurabh/ReWear-Community-Clothing-Exchange.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/aayurabh/ReWear-Community-Clothing-Exchange/issues"
+  },
+  "homepage": "https://github.com/aayurabh/ReWear-Community-Clothing-Exchange#readme"
+}
