@@ -2,6 +2,8 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/common/Navbar';
 import Footer from './components/common/Footer';
+import ProtectedRoute from './components/auth/ProtectedRoute';
+
 
 import Home from './components/pages/Home';
 import Login from './components/pages/Login';
@@ -22,11 +24,32 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/login" element={<Login />} />
             <Route path="/register" element={<Register />} />
-            <Route path="/dashboard" element={<Dashboard />} />
+            <Route
+  path="/dashboard"
+  element={
+    <ProtectedRoute>
+      <Dashboard />
+    </ProtectedRoute>
+  }
+/>
             <Route path="/browse" element={<Browse />} />
             {/* <Route path="/items/:id" element={<ItemDetails />} /> */}
-            {/* <Route path="/add-item" element={<AddItem />} /> */}
-            <Route path="/admin" element={<AdminPanel />} />
+           {/* <Route
+  path="/add-item"
+  element={
+    <ProtectedRoute>
+      <AddItem />
+    </ProtectedRoute>
+  }
+/> */}
+           <Route
+  path="/admin"
+  element={
+    <ProtectedRoute>
+      <AdminPanel />
+    </ProtectedRoute>
+  }
+/>
           </Routes>
         </main>
         <Footer />
