@@ -1,10 +1,10 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 
 const AddItem = () => {
   const [formData, setFormData] = useState({
-    title: '',
-    size: '',
-    condition: '',
+    title: "",
+    size: "",
+    condition: "",
   });
 
   const handleChange = (e) => {
@@ -18,7 +18,7 @@ const AddItem = () => {
     e.preventDefault();
     alert(`Item "${formData.title}" added!`);
     // Here, you would send formData to your backend
-    setFormData({ title: '', size: '', condition: '' });
+    setFormData({ title: "", size: "", condition: "" });
   };
 
   return (
@@ -26,7 +26,8 @@ const AddItem = () => {
       <h1>Add New Item</h1>
       <form onSubmit={handleSubmit}>
         <div>
-          <label>Title:</label><br />
+          <label>Title:</label>
+          <br />
           <input
             type="text"
             name="title"
@@ -36,7 +37,8 @@ const AddItem = () => {
           />
         </div>
         <div>
-          <label>Size:</label><br />
+          <label>Size:</label>
+          <br />
           <input
             type="text"
             name="size"
@@ -46,7 +48,8 @@ const AddItem = () => {
           />
         </div>
         <div>
-          <label>Condition:</label><br />
+          <label>Condition:</label>
+          <br />
           <input
             type="text"
             name="condition"
